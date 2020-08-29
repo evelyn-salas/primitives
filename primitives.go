@@ -116,7 +116,9 @@ func main() {
 	//string = untf8 character, rune = untf32 character
 	//all stings can be runes, so under 32bytes
 	//makes it a little tricky to understand
-	r := 'a' //single quotes for a rune, double for string
-	fmt.Printf("%v, %T\n", r, r)
+	r := 'a'                     //single quotes for a rune, double for string
+	fmt.Printf("%v, %T\n", r, r) //same as an int32
+	//ReadRune() function to read runes
+	//ReadByte() function to read a single byte
 
 }
